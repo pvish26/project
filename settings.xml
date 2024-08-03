@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
         <server>
-            <id>codeartifact</id>
-            <username>aws</username>
-            <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+            <id>myfirstproject-project</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
         </server>
     </servers>
 <profiles>
@@ -14,8 +14,8 @@
     <id>default</id>
     <repositories>
       <repository>
-        <id>codeartifact</id>
-    <url>https://hellobuddy-691291731645.d.codeartifact.ap-south-1.amazonaws.com/maven/maven-central-store/</url>
+        <id>myfirstproject-project</id>
+        <url>https://myfirstproject-155187625632.d.codeartifact.us-east-1.amazonaws.com/maven/project/</url>
       </repository>
     </repositories>
   </profile>
@@ -27,7 +27,7 @@
   <mirror>
     <id>codeartifact</id>
     <name>domainname--maven-central-store</name>
-    <url>https://hellobuddy-691291731645.d.codeartifact.ap-south-1.amazonaws.com/maven/maven-central-store/</url>
+    <url>https://myfirstproject-155187625632.d.codeartifact.us-east-1.amazonaws.com/maven/project/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
