@@ -215,7 +215,7 @@
       <repository>
         <id>codeartifact</id>
         <name>codeartifact</name>
-    <url>https://hellobuddy-691291731645.d.codeartifact.ap-south-1.amazonaws.com/maven/maven-central-store/</url>
+    <url>https://myfirstproject-155187625632.d.codeartifact.us-east-1.amazonaws.com/maven/project/</url>
       </repository>
     </repositories>
 </project>
